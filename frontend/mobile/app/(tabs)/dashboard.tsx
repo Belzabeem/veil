@@ -9,6 +9,7 @@ import { useTheme } from '../../hooks/useTheme';
 import type { ThemeColors } from '../../lib/theme';
 import { getWalletAddress } from '../../lib/walletStore';
 import ActivityFeed from '../../components/ActivityFeed';
+import QuickActions from '../../components/QuickActions';
 import { useInitActivityFeed } from '../../lib/activityFeed';
 
 const WRAITH_URL =
