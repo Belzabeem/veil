@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { ScreenScaffold, NavRow, colors } from '@/components/ScreenScaffold';
-import { QuickActions } from '../../components/QuickActions';
 import { ConnectDAppModal } from '../../components/ConnectDAppModal';
 import { ThemeToggle } from '../../components/ThemeToggle';
 import { useWalletConnect } from '../../hooks/useWalletConnect';
